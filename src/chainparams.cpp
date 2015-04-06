@@ -28,7 +28,7 @@ public:
         pchMessageStart[2] = 0x08;
         pchMessageStart[3] = 0x54;
         nDefaultPort = 8546;
-        nRPCPort = 8546;
+        nRPCPort = 9546;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 20);
         nSubsidyHalvingInterval = 4000000;
 
@@ -51,7 +51,7 @@ public:
         genesis.nNonce   = 362709;
         
         //// debug print
-		//	hashGenesisBlock = genesis.GetHash();
+			hashGenesisBlock = genesis.GetHash();
 		//	while (hashGenesisBlock > bnProofOfWorkLimit.getuint256()){
 		//		if (++genesis.nNonce==0) break;
 		//		hashGenesisBlock = genesis.GetHash();

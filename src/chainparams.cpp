@@ -78,7 +78,7 @@ public:
         assert(hashGenesisBlock == uint256("0x00000c8c189093f5609910c2fd66e7dd31931f6d0ca9f3007788754e381436ca"));
         assert(genesis.hashMerkleRoot == uint256("0xe3aa8cc3f6de82349e3935ae170ae7d81b21100be07e9bca52ba8d8a568e60e1"));
 
-        vSeeds.push_back(CDNSSeedData("", "")); //This is where Jimmy put his seednode so no need to do addnode <someip> add bullshit for 8 months...
+        vSeeds.push_back(CDNSSeedData("54.187.101.177", "54.187.101.177")); //This is where Jimmy put his seednode so no need to do addnode <someip> add bullshit for 8 months...
 
 
         base58Prefixes[PUBKEY_ADDRESS] = 68; //This is where Jimmy changed the starting letter for Unbrokencoin addresses so that they are different than Bitcoins!
